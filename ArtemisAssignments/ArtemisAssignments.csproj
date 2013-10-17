@@ -12,6 +12,21 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -89,6 +104,49 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DATA\background\holodeckbackground.jpg" />
+    <Content Include="DATA\Captain\James_Kirk%27s_evil_counterpart.jpg" />
+    <Content Include="DATA\Captain\Jean_Luc_Picard_2364.jpg" />
+    <Content Include="DATA\Captain\Jonathan_Archer,_2151.jpg" />
+    <Content Include="DATA\Captain\tumblr_ma9bezYZQw1qi1o4io1_500.jpg" />
+    <Content Include="DATA\Captain\tumblr_mhtquvnF3q1r7ahpxo1_500.jpg" />
+    <Content Include="DATA\Comms\bp-ENT-Hoshi_Sato_Linda_Park_Bridge.jpg" />
+    <Content Include="DATA\Comms\Uhura-resized-600.jpg" />
+    <Content Include="DATA\Eng\geordi_la_forge.jpg" />
+    <Content Include="DATA\Eng\scotty.jpg" />
+    <Content Include="DATA\Eng\star-trek-voyager-b-elanna-torres.jpg" />
+    <Content Include="DATA\Helm\George_Takei_Sulu_Star_Trek.jpg" />
+    <Content Include="DATA\Helm\TomParis.jpg" />
+    <Content Include="DATA\Science\DataTNG.jpg" />
+    <Content Include="DATA\Science\spok.jpg" />
+    <Content Include="DATA\Science\star-trek-deep-space-nine-terry-farrell-4.jpg" />
+    <Content Include="DATA\Science\tpol_jolene_blalock.jpg" />
+    <Content Include="DATA\Sounds\add.wav" />
+    <Content Include="DATA\Sounds\complete.wav" />
+    <Content Include="DATA\Sounds\delete.wav" />
+    <Content Include="DATA\Weapons\Odo.jpg" />
+    <Content Include="DATA\Weapons\TashaYar.jpg" />
+    <Content Include="DATA\Weapons\WorfTNG.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
